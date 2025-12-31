@@ -1,0 +1,7 @@
+# Example Enzo parameter file (learning purpose)
+
+CosmologySimulation        = 1
+CosmologyInitialRedshift   = 100
+CosmologyFinalRedshift     = 8.5
+
+TopGridDimensions          = 64 64 64
