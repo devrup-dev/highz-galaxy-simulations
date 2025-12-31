@@ -1,7 +1,10 @@
 # Example Enzo parameter file (learning purpose)
 
+#Cosmology
 CosmologySimulation        = 1
 CosmologyInitialRedshift   = 100
 CosmologyFinalRedshift     = 8.5
 
+#Grid
 TopGridDimensions          = 64 64 64
+TopGridRank                = 3        # 64^3 grid is very low resolution and used only for learning
