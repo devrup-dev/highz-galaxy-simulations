@@ -1,10 +1,16 @@
 # Example Enzo parameter file (learning purpose)
 
-#Cosmology
+# Cosmology
 CosmologySimulation        = 1
 CosmologyInitialRedshift   = 100
 CosmologyFinalRedshift     = 8.5
 
-#Grid
+# Grid
 TopGridDimensions          = 64 64 64
 TopGridRank                = 3        # 64^3 grid is very low resolution and used only for learning
+
+# Hydrodynamics
+HydroMethod                = 0        # PPM captures shock accurately
+
+# Cooling 
+RadiativeCooling           = 1        # Radiative cooling allows gas to collapse and form stars
